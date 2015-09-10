@@ -1,0 +1,21 @@
+{
+  "name": "jquery-gollum",
+  "description": "A jQuery plugin that makes writing in different markup dialects a doddle.",
+  "homepage": "https://github.com/brightmachine/jquery-gollum",
+  "repository": "git://github.com/brightmachine/jquery-gollum.git",
+  "keywords": [
+    "jquery",
+    "gollum",
+    "textile",
+    "editor"
+  ],
+  "authors": ["Kelvin Jones <kelvin@brightmachine.co.uk> (http://www.brightmachine.uk)"],
+  "main": ["jquery-gollum.js", "jquery-gollum.css"],
+  "ignore": [],
+  "dependencies": {
+    "jquery": ">= 1.9"
+  },
+  "license": [
+    "MIT"
+  ]
+}
