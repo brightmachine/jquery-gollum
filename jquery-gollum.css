@@ -142,7 +142,7 @@ a {
 }
 
 .gollum-editor .gollum-editor-function-bar a span {
-  background-image: url(../img/editor-icon-sprite.png);
+  background-image: url(editor-icon-sprite.png);
   background-repeat: no-repeat;
   display: block;
   height: 25px;
@@ -356,7 +356,7 @@ a.function-help:hover span { background-position: -405px -28px; }
 
 .gollum-editor .collapsed a span,
 .gollum-editor .expanded a span {
-  background-image: url(../img/editor-icon-sprite.png);
+  background-image: url(editor-icon-sprite.png);
   background-position: -351px -1px;
   background-repeat: no-repeat;
   display: block;
