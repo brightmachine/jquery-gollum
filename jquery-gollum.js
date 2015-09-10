@@ -7,6 +7,7 @@
  */
 (function($) {
 
+
   // static constructs
 	$.GollumEditor = $.GollumEditor || {};
 
@@ -786,18 +787,7 @@
               },
 
               show: function() {
-                if ( $.browser.msie ) {
-                  // bypass effects for internet explorer, since it does weird crap
-                  // to text antialiasing with opacity animations
-                  $self.find('.gollum-editor-help').css('display', 'block');
-                } else {
-                  $self.find('.gollum-editor-help').animate({
-                    height: 'show'
-                  }, 200, function() {
-                    $self.find('.gollum-editor-help')
-                      .animate({ opacity: 1 }, 300);
-                  });
-                }
+                $self.find('.gollum-editor-help').css('display', 'block');
               },
 
               /**
@@ -810,8 +800,7 @@
                *  @return void
                */
               showHelpFor: function( index1, index2 ) {
-                var html =
-                  Help._HELP[Help._ACTIVE_HELP_LANG][index1].content[index2].data;
+                var html = Help._HELP[Help._ACTIVE_HELP_LANG][index1].content[index2].data;
                 $self.find('.gollum-editor-help-content').html(html);
               },
 
