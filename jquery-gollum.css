@@ -53,9 +53,9 @@ a {
   background: #fff;
   border: 1px solid #ddd;
   color: #000;
-  font-size: 1.3em;
+  font-size: 1.1em;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  line-height: 1.8em;
+  line-height: 1.6em;
   margin: 1em 0 0.4em;
   padding: 0.5em;
   width: 98%;
@@ -522,7 +522,7 @@ a.function-help:hover span { background-position: -405px -28px; }
   }
 
     .gollum-editor-help-content {
-      font-size: 1.2em;
+      font-size: 1em;
       margin: 0 1em 0 0.5em;
       padding: 0;
       line-height: 1.8em;
